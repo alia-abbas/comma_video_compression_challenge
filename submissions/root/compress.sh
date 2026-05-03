@@ -1,20 +1,22 @@
-# Environment setup (3090-only). Installs k-quants or custom ops.
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Get the directory where this script is located
 HERE="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
-DATA_DIR="$1"    # Path to the videos (e.g., videos/)
-OUTPUT_DIR="$2"  # Path to save the compressed .br files
-FILE_LIST="$3"   # The .txt file containing names like 0.mkv
+# 1. Path to the folder containing 0.mkv
+DATA_DIR="videos"
+
+# 2. Path to the output folder you created
+OUTPUT_DIR="submissions/root/output"
+
+# 3. Path to the txt file that says "0.mkv"
+FILE_LIST="public_test_video_names.txt"
 
 mkdir -p "$OUTPUT_DIR"
 
-# Standardize python call
-PYTHON_BIN="python3"
+# Use "python" for Windows/Git Bash compatibility
+PYTHON_BIN="python"
 
-# Run your new compression engine
 "$PYTHON_BIN" "$HERE/compress.py" \
     --video-dir "$DATA_DIR" \
     --video-names "$FILE_LIST" \
