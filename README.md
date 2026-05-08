@@ -28,11 +28,19 @@
 <img height="800" alt="image" src="https://github.com/user-attachments/assets/eac1bf44-3b35-40fd-ab82-4dde4a2f5d07" />
 </p>
 
-## prize pool - submit by May, 3rd 2026 11:59pm AOE
-- 1st place: [comma four OR $1,000] + special swag
-- 2nd place: [$500] + special swag
-- 3rd place: [$250] + special swag
-- Best write-up (visualizations, patterns, etc.): [comma four OR $1,000] + special swag
+## prize pool - ~~submit by May, 3rd 2026 11:59pm AOE~~
+The challenge is still open for submissions! Submit to get on the leaderboard, apply for a job/internship, or just for fun! See [submission format and rules](#submission-format-and-rules)
+
+Congratulations to the competition winners! See leaderboard for more submissions.
+
+- 1st place: [comma four OR $1,000] + special swag: [@SajayR](https://github.com/SajayR) ([#101](https://github.com/commaai/comma_video_compression_challenge/pull/101))
+- 2nd place: $500 + special swag: [@rem2](https://github.com/rem2) ([#103](https://github.com/commaai/comma_video_compression_challenge/pull/103))
+- 3rd place: $250 + special swag: [@EthanYangTW](https://github.com/EthanYangTW) ([#102](https://github.com/commaai/comma_video_compression_challenge/pull/102))
+- Best write-up (visualizations, patterns, etc.): [comma four OR $1,000] + special swag: [@AaronLeslie138](https://github.com/AaronLeslie138) ([write-up](https://aaronleslie.dev/blog/comma-compression))
+- Honorary prize (open-code, new approach): $500 + special swag: [@Quantizr](https://github.com/Quantizr) ([#55](https://github.com/commaai/comma_video_compression_challenge/pull/55))
+- Honorary prize (open-code, new approach): $500 + special swag: [@AaronLeslie138](https://github.com/AaronLeslie138) ([#95](https://github.com/commaai/comma_video_compression_challenge/pull/95))
+- Honorary prize (open-code, new approach): $500 + special swag: [@valtterivalo](https://github.com/valtterivalo) ([#105](https://github.com/commaai/comma_video_compression_challenge/pull/105))
+
 
 ## quickstart
 Clone the repo
@@ -103,7 +111,7 @@ A submission is a Pull Request to this repo that includes:
 
 See [submissions/baseline_fast/](submissions/baseline_fast/) for a working example, and  `./evaluate.sh` for how the evaluation process works.
 
-Open a Pull Request with your submission and follow the template instructions to be evaluated. If your submission includes a working compression script, and is competitive we'll merge it into the repo. Otherwise, only the leaderboard will be updated with your score and a link to your PR.
+Open a Pull Request with your submission and follow the template instructions to be evaluated.
 
 ### evaluation
 
@@ -111,7 +119,7 @@ Open a Pull Request with your submission and follow the template instructions to
 bash evaluate.sh --submission-dir ./submissions/baseline_fast --device cpu|cuda|mps
 ```
 
-The official evaluation has a time limit of 30 minutes. If your inflation script requires a GPU, it will run on a T4 GPU instance (RAM: 26GB, VRAM: 16GB), if it doesn't it will run on a CPU instance (CPU: 4, RAM: 16GB).
+The official evaluation has a time limit of 30 minutes. Pick your runtime: github's "linux-nvidia-t4" GPU instance (RAM: 26GB, VRAM: 16GB) or github's "ubuntu-latest" CPU instance (CPU: 4, RAM: 16GB).
 
 ### rules
 
@@ -144,7 +152,202 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.26
+    0.193
+   </td>
+   <td>
+    hnerv_ft_microcodec 👑
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/101" target="_blank">
+     #101
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.195
+   </td>
+   <td>
+    hnerv_lc_ac 👑
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/103" target="_blank">
+     #103
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.195
+   </td>
+   <td>
+    hnerv_lc_v2_scale095_rplus1 👑
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/102" target="_blank">
+     #102
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.195
+   </td>
+   <td>
+    hnerv_lc_v2 💡
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/100" target="_blank">
+     #100
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.197
+   </td>
+   <td>
+    hnerv_muon_finetuned_from_pr95
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/98" target="_blank">
+     #98
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.198
+   </td>
+   <td>
+    kitchen_sink
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/105" target="_blank">
+     #105
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.199
+   </td>
+   <td>
+    hnerv_muon 💡 📖
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/95" target="_blank">
+     #95
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.206
+   </td>
+   <td>
+    rem2_HNeRV
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/96" target="_blank">
+     #96
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.209
+   </td>
+   <td>
+    belt_and_suspenders
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/106" target="_blank">
+     #106
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.229
+   </td>
+   <td>
+    vibe_coder_final_boss
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/97" target="_blank">
+     #97
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.229
+   </td>
+   <td>
+    apogee
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/107" target="_blank">
+     #107
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.231
+   </td>
+   <td>
+    qhnerv_ft_best
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/104" target="_blank">
+     #104
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.249
+   </td>
+   <td>
+    hpac_coder_hybrid
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/91" target="_blank">
+     #91
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.258
    </td>
    <td>
     adaptive_masking_joint_frame_model
@@ -159,10 +362,25 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.27
+    0.260
    </td>
    <td>
-    jas0xf_adversarial_neural_representation
+    qzs3_range_joint_r258
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/92" target="_blank">
+     #92
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.274
+   </td>
+   <td>
+    jas0xf_adversarial_neural_representation 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/86" target="_blank">
@@ -174,10 +392,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.28
+    0.275
    </td>
    <td>
-    adaptive_range_mask_no_router
+    adaptive_range_mask
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/84" target="_blank">
@@ -189,10 +407,25 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.28
+    0.280
    </td>
    <td>
-    qzs3_range_mask
+    qrepro 💡
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/90" target="_blank">
+     #90
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.288
+   </td>
+   <td>
+    qzs3_range_mask 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/81" target="_blank">
@@ -204,7 +437,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.31
+    0.315
    </td>
    <td>
     qpose14_r55_segactions_minp
@@ -219,7 +452,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.32
+    0.315
    </td>
    <td>
     qzs3_tile_delta_r147
@@ -234,7 +467,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.32
+    0.316
    </td>
    <td>
     qpose14_qzs3_filmq9g_slsb1_r55
@@ -249,7 +482,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.32
+    0.320
    </td>
    <td>
     henosis_qz_n3z_r25_clean
@@ -264,7 +497,22 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.32
+    0.321
+   </td>
+   <td>
+    flatpup
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/93" target="_blank">
+     #93
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.325
    </td>
    <td>
     qpose14
@@ -279,22 +527,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.33
-   </td>
-   <td>
-    qpose14_poseq6
-   </td>
-   <td>
-    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/76" target="_blank">
-     #76
-    </a>
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-    0.33
+    0.331
    </td>
    <td>
     unified_brotli
@@ -309,10 +542,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.33
+    0.333
    </td>
    <td>
-    quantizr
+    quantizr 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/55" target="_blank">
@@ -324,7 +557,22 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.37
+    0.344
+   </td>
+   <td>
+    qpose14_poseq6
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/76" target="_blank">
+     #76
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.368
    </td>
    <td>
     ph4ntom_drv
@@ -339,7 +587,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.37
+    0.375
    </td>
    <td>
     fp4_mask_gen
@@ -354,7 +602,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.38
+    0.382
    </td>
    <td>
     selfcomp
@@ -369,10 +617,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.60
+    0.602
    </td>
    <td>
-    mask2mask
+    mask2mask 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/53" target="_blank">
@@ -384,7 +632,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    0.72
+    0.717
    </td>
    <td>
     tomasdousek
@@ -399,10 +647,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    1.24
+    1.236
    </td>
    <td>
-    codex_metric_yshift_av1
+    codex_metric_yshift_av1 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/60" target="_blank">
@@ -414,10 +662,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    1.89
+    1.891
    </td>
    <td>
-    neural_inflate
+    neural_inflate 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/49" target="_blank">
@@ -429,7 +677,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    1.91
+    1.914
    </td>
    <td>
     svtav1_dilated_ren
@@ -444,7 +692,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    1.94
+    1.944
    </td>
    <td>
     roi_v2
@@ -459,7 +707,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    1.95
+    1.947
    </td>
    <td>
     av1_roi_lanczos_unsharp
@@ -474,7 +722,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    1.98
+    1.979
    </td>
    <td>
     svtav1_av1grain_10bit
@@ -489,10 +737,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    1.98
+    1.981
    </td>
    <td>
-    damir_bearclaw_002
+    damir_bearclaw_002 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/30" target="_blank">
@@ -504,7 +752,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.01
+    2.005
    </td>
    <td>
     roi_gop300_c34
@@ -519,10 +767,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.02
+    2.020
    </td>
    <td>
-    v4_qp_aq2_roi
+    v4_qp_aq2_roi 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/44" target="_blank">
@@ -534,7 +782,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.03
+    2.033
    </td>
    <td>
     av1_crf31_bicubic
@@ -549,7 +797,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.05
+    2.052
    </td>
    <td>
     svtav1_cheetah
@@ -564,7 +812,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.07
+    2.070
    </td>
    <td>
     svtav1_45pct_unsharp20_direct
@@ -579,7 +827,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.08
+    2.083
    </td>
    <td>
     svtav1_gop360_binomial_unsharp
@@ -594,7 +842,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.08
+    2.083
    </td>
    <td>
     av1_sharp1_adaptive
@@ -609,10 +857,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.09
+    2.086
    </td>
    <td>
-    svtav1_45pct_unsharp
+    svtav1_45pct_unsharp 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/20" target="_blank">
@@ -624,7 +872,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.16
+    2.158
    </td>
    <td>
     svtav1_spline_fg22
@@ -639,7 +887,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.20
+    2.200
    </td>
    <td>
     svt_av1_lanczos_fg
@@ -654,7 +902,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    2.55
+    2.553
    </td>
    <td>
     h265_g16_512x384_veryslow
@@ -669,10 +917,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    3.32
+    3.323
    </td>
    <td>
-    h265_tuned
+    optimized
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/22" target="_blank">
@@ -684,10 +932,10 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    3.83
+    3.833
    </td>
    <td>
-    delta_codec
+    delta_codec 💡
    </td>
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/61" target="_blank">
@@ -699,7 +947,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    4.39
+    4.390
    </td>
    <td>
     baseline_fast
@@ -714,7 +962,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    5.09
+    5.086
    </td>
    <td>
     damir_bearclaw_003
@@ -729,7 +977,7 @@ The official evaluation has a time limit of 30 minutes. If your inflation script
    <td>
    </td>
    <td>
-    25.0
+    25.000
    </td>
    <td>
     no_compress
@@ -757,3 +1005,11 @@ Check out this large grid search over various ffmpeg parameters. Each point in t
 You can also use [test_videos.zip](https://huggingface.co/datasets/commaai/comma2k19/resolve/main/compression_challenge/test_videos.zip), which is a 2.4 GB archive of 64 driving videos from the comma2k19 dataset, to test your compression strategy on more samples.
 
 The evaluation script and the dataloader are designed to be scalable and can handle different batch sizes, sequence lengths, and video resolutions. You can modify them to fit your needs.
+
+## community write-ups and forks
+
+- [How I (Spiritually) Won comma.ai's Compression Challenge](https://aaronleslie.dev/blog/comma-compression) by [@AaronLeslie138](https://github.com/AaronLeslie138)
+- [Generator Visualizations](https://tomdousek.github.io/) by [@TomDousek](https://github.com/TomDousek)
+- [VIBE_CODER_FINAL_BOSS - comma video compression challenge writeup](https://comma-writeup.pages.dev/) by [@BradyMeighan](https://github.com/BradyMeighan)
+- [kitchen sink - comma compression writeup](https://github.com/user-attachments/files/27357161/kitchen-sink.html) by [@valtterivalo](https://github.com/valtterivalo)
+- [Compressing What the Evaluator Can See](https://github.com/SajayR/comma_video_compression_challenge/blob/cce857392701e73861ad513d34906faba523f719/submissions/qrepro/README.md) by [@SajayR](https://github.com/SajayR)
