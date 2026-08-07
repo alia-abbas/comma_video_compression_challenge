@@ -28,6 +28,20 @@
 <img height="800" alt="image" src="https://github.com/user-attachments/assets/eac1bf44-3b35-40fd-ab82-4dde4a2f5d07" />
 </p>
 
+## coding agents and LLMs policy
+If you're attempting this challenge, you are probably doing it for fun or for applying for a job at comma, hopefully both. If you're not writing and reading most of the code you are submitting, then what's the point?!
+This policy is mostly inspired by [rust's LLMs usage policy](https://forge.rust-lang.org/policies/llm-usage.html)
+Any violation of this policy will result in a closed PR, repeated violations will result in a ban.
+
+**allowed uses**
+- write, refine, check, suggest, review parts of the code
+- document, organize, answer questions, analyze information for personal and internal use
+
+**banned uses**
+- write all of the code
+- write PR description and public facing comments
+
+
 ## prize pool - ~~submit by May, 3rd 2026 11:59pm AOE~~
 The challenge is still open for submissions! Submit to get on the leaderboard, apply for a job/internship, or just for fun! See [submission format and rules](#submission-format-and-rules)
 
