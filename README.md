@@ -39,7 +39,7 @@ Any violation of this policy will result in a closed PR, repeated violations wil
 
 **banned uses**
 - write all of the code
-- write PR description and public facing comments
+- write full PR description and public facing comments
 
 
 ## prize pool - ~~submit by May, 3rd 2026 11:59pm AOE~~
