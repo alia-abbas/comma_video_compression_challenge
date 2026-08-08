@@ -166,6 +166,21 @@ The official evaluation has a time limit of 30 minutes. Pick your runtime: githu
    <td>
    </td>
    <td>
+    0.162
+   </td>
+   <td>
+    semantic-pose-HPAC_CPR1_polished
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/135" target="_blank">
+     #135
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
     0.172
    </td>
    <td>
