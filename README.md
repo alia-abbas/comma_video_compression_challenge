@@ -181,6 +181,21 @@ The official evaluation has a time limit of 30 minutes. Pick your runtime: githu
    <td>
    </td>
    <td>
+    0.166
+   </td>
+   <td>
+    cpr1_cbq_matched8
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/133" target="_blank">
+     #133
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
     0.172
    </td>
    <td>
