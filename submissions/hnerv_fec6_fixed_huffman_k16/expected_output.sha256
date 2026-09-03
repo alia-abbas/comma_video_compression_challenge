@@ -1,0 +1,6 @@
+# Canonical reproducibility token for this submission.
+# Running `inflate.sh archive.zip <out> public_test_video_names.txt`
+# on CPU with the same archive bytes (SHA-256
+# 6bae0201fb082457a02c69565531aba4c5942669c384fdc48e7d554f7b893fcf)
+# must reproduce this 0.raw SHA-256 exactly:
+d1afc583b01ff4a7aaa844d4f03ece3ed381d56763a06cb2c5e011526e5f868c  0.raw

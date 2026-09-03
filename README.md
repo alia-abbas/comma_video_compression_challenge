@@ -28,6 +28,20 @@
 <img height="800" alt="image" src="https://github.com/user-attachments/assets/eac1bf44-3b35-40fd-ab82-4dde4a2f5d07" />
 </p>
 
+## coding agents and LLMs policy
+If you're attempting this challenge, you are probably doing it for fun or for applying for a job at comma, hopefully both. If you're not writing and reading most of the code you are submitting, then what's the point?!
+This policy is mostly inspired by [rust's LLMs usage policy](https://forge.rust-lang.org/policies/llm-usage.html)
+Any violation of this policy will result in a closed PR, repeated violations will result in a ban.
+
+**allowed uses**
+- write, refine, check, suggest, review parts of the code
+- document, organize, answer questions, analyze information for personal and internal use
+
+**banned uses**
+- write all of the code
+- write full PR description and public facing comments
+
+
 ## prize pool - ~~submit by May, 3rd 2026 11:59pm AOE~~
 The challenge is still open for submissions! Submit to get on the leaderboard, apply for a job/internship, or just for fun! See [submission format and rules](#submission-format-and-rules)
 
@@ -148,6 +162,141 @@ The official evaluation has a time limit of 30 minutes. Pick your runtime: githu
   </tr>
  </thead>
  <tbody>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.162
+   </td>
+   <td>
+    semantic-pose-HPAC_CPR1_polished
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/135" target="_blank">
+     #135
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.166
+   </td>
+   <td>
+    cpr1_cbq_matched8
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/133" target="_blank">
+     #133
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.172
+   </td>
+   <td>
+    semantic-pose-HPAC_CPR1
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/130" target="_blank">
+     #130
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.187
+   </td>
+   <td>
+    rhnerv_latent_polish
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/128" target="_blank">
+     #128
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.190
+   </td>
+   <td>
+    qlp_exactgrid
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/129" target="_blank">
+     #129
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.191
+   </td>
+   <td>
+    qlp_exactgrid
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/127" target="_blank">
+     #127
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.191
+   </td>
+   <td>
+    hnerv_qlp
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/125" target="_blank">
+     #125
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.191
+   </td>
+   <td>
+    rhnerv_comma
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/112" target="_blank">
+     #112
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.192
+   </td>
+   <td>
+    hnerv_fec6_fixed_huffman_k16
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/110" target="_blank">
+     #110
+    </a>
+   </td>
+  </tr>
   <tr>
    <td>
    </td>
@@ -610,6 +759,21 @@ The official evaluation has a time limit of 30 minutes. Pick your runtime: githu
    <td>
     <a href="https://github.com/commaai/comma_video_compression_challenge/pull/56" target="_blank">
      #56
+    </a>
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+    0.481
+   </td>
+   <td>
+    roro_perframe_hnerv
+   </td>
+   <td>
+    <a href="https://github.com/commaai/comma_video_compression_challenge/pull/119" target="_blank">
+     #119
     </a>
    </td>
   </tr>
